@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "type": "education",
+    "yearLabel": "Jun 2021 - May 2025",
+    "title": "Bachelor of Technology in Computer Science and Engineering",
+    "organization": "Bansal College of Engineering | CGPA: 7.83",
+    "description": "Built a strong academic foundation in software engineering, problem solving, and full-stack application development.",
+    "impact": "Applied classroom learning through hands-on projects involving frontend systems, backend logic, and database-backed workflows.",
+    "sortOrder": 1
+  },
+  {
+    "id": 4,
+    "type": "education",
+    "yearLabel": "Apr 2020 - Mar 2021",
+    "title": "Higher Secondary School",
+    "organization": "D. D. Convent School | 96.20%",
+    "description": "Completed higher secondary education with strong academic consistency and disciplined preparation.",
+    "impact": "Built the learning habits and academic rigor that supported later engineering studies and technical growth.",
+    "sortOrder": 2
+  },
+  {
+    "id": 5,
+    "type": "education",
+    "yearLabel": "Apr 2018 - Mar 2019",
+    "title": "Secondary School",
+    "organization": "D. D. Convent School | 93.80%",
+    "description": "Achieved strong school-level academic performance with a solid foundation across core subjects.",
+    "impact": "Earned early academic distinction that reflected consistency, focus, and a strong learning mindset.",
+    "sortOrder": 3
+  },
+  {
+    "id": 2,
+    "type": "experience",
+    "yearLabel": "Oct 2024 - Present",
+    "title": "Associate Developer",
+    "organization": "Tech Extensor, Ahmedabad",
+    "description": "Promoted from Web Intern to Associate Developer within 6 months and now contribute as a Full Stack Developer for a US-based ticket reselling platform using C#, ASP.NET, SQL, JavaScript, and REST APIs. Own work across requirement analysis, system design, schema planning, API development, testing, and deployment.",
+    "impact": "Delivered 20+ scalable frontend and backend features while improving system performance and user engagement, and accelerated implementation with Claude Code and ChatGPT for debugging, refactoring, and optimization.",
+    "sortOrder": 1
+  },
+  {
+    "id": 3,
+    "type": "experience",
+    "yearLabel": "Apr 2024 - Jun 2024",
+    "title": "Front End Developer Intern",
+    "organization": "Netlink Software Group America Inc., Mandideep, Raisen",
+    "description": "Developed responsive UI components for Lumenore, a business analytics and app builder platform, while collaborating inside a 20+ member Agile team environment.",
+    "impact": "Built 3+ domain-specific applications using modern frontend technologies and contributed to stronger responsiveness and usability across product-facing interfaces.",
+    "sortOrder": 2
+  }
+]

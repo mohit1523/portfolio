@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "MadBook",
+    "slug": "madbook",
+    "category": "web",
+    "featured": true,
+    "summary": "A full-stack social media platform built with a split frontend, REST API, and Socket.IO realtime service to deliver persistent chat, unread state, and smooth thread-based messaging.",
+    "problem": "The challenge was not just enabling live chat, but keeping private messaging consistent across MongoDB history, Socket.IO delivery, and frontend unread or thread state without duplicated messages or broken read markers.",
+    "approach": "Built MadBook with a React and Vite frontend, an Express and MongoDB backend, and a separate realtime service. Implemented custom JWT auth, public and private chat flows, MongoDB-backed private messages, unread tracking through a dedicated ChatReadState model, indexed queries for conversation access patterns, and UI behaviors like unread dividers, jump-to-latest, and controlled auto-scroll.",
+    "result": "Delivered a stronger realtime product experience with persistent private messaging, scalable conversation querying, and thread-level unread consistency across independently deployable frontend, API, and socket services.",
+    "techStack": "React\nVite\nNode.js\nExpress\nMongoDB\nSocket.IO\nJWT\nBcryptJS",
+    "metrics": "Realtime public and private chat\nIndexed MongoDB messaging queries\nSeparate deployable frontend, API, and realtime services",
+    "githubUrl": "https://github.com/mohit1523/madbook",
+    "liveUrl": "https://madbook.vercel.app/",
+    "sortOrder": 1
+  },
+  {
+    "id": 2,
+    "title": "BusEasy",
+    "slug": "buseasy",
+    "category": "web",
+    "featured": false,
+    "summary": "A role-based bus booking web application where passengers book seats, bus owners manage buses, and admins monitor registered operators through dedicated dashboards.",
+    "problem": "The core challenge was coordinating booking state safely across authentication, role-based dashboards, seat allocation, ticket generation, and ticket cancellation while keeping the UI simple for passengers and operators.",
+    "approach": "Built BusEasy with vanilla JavaScript on the frontend and a Node.js, Express, and MongoDB backend. Implemented JWT-based signup and login, route-based bus search, seat-selection modal flow, UUID-backed ticket generation, role-based dashboard redirects, bus owner management features, and booking cancellation logic that pushes and pulls seat allocations from the bus model.",
+    "result": "Delivered a complete ticket-booking workflow with passenger self-service, owner-side bus management, and admin visibility into bus owners, supported by a modular full-stack architecture and clean SDLC-style structure.",
+    "techStack": "HTML\nCSS\nJavaScript\nNode.js\nExpress\nMongoDB\nMongoose\nJWT\nBcrypt\nUUID",
+    "metrics": "3 user roles\nTicket booking plus cancellation flow\nSeat allocation synced with ticket lifecycle",
+    "githubUrl": "https://github.com/mohit1523/BusEasy",
+    "liveUrl": "https://buseasy.netlify.app/",
+    "sortOrder": 2
+  }
+]
