@@ -15,6 +15,11 @@ export function buildMetadata(
     title: metaTitle,
     description: metaDescription,
     keywords: siteConfig.keywords,
+    icons: {
+      icon: '/logo.png',
+      shortcut: '/logo.png',
+      apple: '/logo.png',
+    },
     alternates: {
       canonical,
     },
